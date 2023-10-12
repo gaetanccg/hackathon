@@ -55,6 +55,27 @@ h1, h2 {
     margin-bottom: 20px;
     font-weight: bold;
 }
+#description p {
+    font-size: 16px;
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#description ul {
+    font-size: 16px;
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#description h2, h3 {
+    font-size: 28px;
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 .card-title {
     font-size: 26px;
     color: rgb(0, 0, 0); 
@@ -69,13 +90,10 @@ h1, h2 {
     text-align: center;
     margin-top: 10px;
 }
-
-
-
 ul {
     list-style: none;
     font-size: 18px;
-    color: #333; /* Couleur du texte de la liste */
+    color: #ffffff; /* Couleur du texte de la liste */
 }
 
 /* Styles pour la vidéo de présentation */
@@ -92,7 +110,7 @@ ul {
 
 /* Styles pour le texte de contact */
 #contact p {
-    color: #333;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -120,6 +138,7 @@ ul {
     height: auto; /* Permet à la hauteur de l'image de s'ajuster automatiquement pour conserver les proportions */
     display: block; /* Supprime les espaces sous l'image pour la centrer verticalement */
     margin: 0 auto; /* Centre l'image horizontalement dans la Card */
+    border-radius: 80%;
 }
 .card:hover {
     box-shadow: 0 4px 8px rgb(255, 255, 255); /* Ombre légère au survol */
